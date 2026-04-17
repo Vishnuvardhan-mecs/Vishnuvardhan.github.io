@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madireddi Vishnuvardhan | AI Engineer & Data Scientist Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Madireddi Vishnuvardhan, an aspiring AI Engineer and Data Scientist from Matrusri Engineering College. Specialized in Python and Image Processing.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Background Decoration -->
+    <div class="bg-blobs">
+        <div class="blob"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-content">
+            <div class="logo">Madireddi Vishnuvardhan</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-mobile-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1>Hi, I'm <span class="highlight">Vishnuvardhan</span></h1>
+            <p>Student at Matrusri Engineering College | Aspiring AI Engineer & Data Scientist specializing in Python
+                and Intelligent Systems.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">Discover Projects</a>
+                <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Slider or something similar would be nice, but let's stick to sections -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Image Processing -->
+                <div class="project-card">
+                    <img src="project_img_processing.png" alt="Image Processing Project" class="project-img">
+                    <div class="project-info">
+                        <h3>Vision Guard</h3>
+                        <p>A sophisticated Image Processing system developed as my mini-project, focusing on pattern
+                            recognition and noise reduction.</p>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">NumPy</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="project_ai_analytics.png" alt="AI Analytics Project" class="project-img">
+                    <div class="project-info">
+                        <h3>Neural Insight</h3>
+                        <p>Implementing advanced AI models to extract meaningful insights from multi-dimensional
+                            datasets.</p>
+                        <div class="tags">
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Scikit-Learn</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="project_automation.png" alt="Digital Automation Project" class="project-img">
+                    <div class="project-info">
+                        <h3>Swift Automate</h3>
+                        <p>A collection of robust Python scripts designed to automate repetitive data workflow tasks.
+                        </p>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">My Toolkit</h2>
+            <div class="skills-container">
+                <div class="skill-badge"><i class="fab fa-python"></i> Python</div>
+                <div class="skill-badge"><i class="fas fa-brain"></i> Artificial Intelligence</div>
+                <div class="skill-badge"><i class="fas fa-microchip"></i> Machine Learning</div>
+                <div class="skill-badge"><i class="fas fa-eye"></i> Image Processing</div>
+                <div class="skill-badge"><i class="fas fa-chart-line"></i> Data Science</div>
+                <div class="skill-badge"><i class="fas fa-code"></i> Algorithm Design</div>
+                <div class="skill-badge"><i class="fab fa-github"></i> Git & Version Control</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required
+                        placeholder="I'd love to collaborate on..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%; margin-bottom: 2rem;">Send
+                    Message</button>
+            </form>
+
+            <div class="social-links"
+                style="text-align: center; margin-top: 3rem; display: flex; justify-content: center; gap: 2rem; font-size: 1.5rem;">
+                <a href="https://linkedin.com" target="_blank"
+                    style="color: var(--text-muted); transition: var(--transition);"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com" target="_blank"
+                    style="color: var(--text-muted); transition: var(--transition);"><i class="fab fa-github"></i></a>
+                <a href="mailto:example@gmail.com" style="color: var(--text-muted); transition: var(--transition);"><i
+                        class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="padding: 3rem 0; border-top: 1px solid var(--glass-border); text-align: center;">
+        <div class="container">
+            <div class="logo" style="margin-bottom: 1rem;">Madireddi Vishnuvardhan</div>
+            <p style="color: var(--text-muted); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 2px;">
+                Building the Future with Intelligence</p>
+            <p style="color: var(--text-muted); margin-top: 1rem;">&copy; 2024. Engineering Student at Matrusri
+                Engineering College.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
